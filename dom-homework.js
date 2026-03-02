@@ -20,9 +20,10 @@ forty.classList.add('highlight');
 const haii = document.querySelector(".highlight");
 haii.style.backgroundColor = 'red';
 const gooba = document.createElement('button');
+gooba.innerText = "Add new list item";
 document.body.appendChild(gooba);
 gooba.addEventListener('click', newlistitem);
-let i = 0;
+let i = 1;
 const colors = [
     'peru', 'tomato', 'mediumseagreen', 'dodgerblue', 'gold', 
     'orchid', 'crimson', 'darkorange', 'slateblue', 'turquoise'
